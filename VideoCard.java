@@ -44,4 +44,13 @@ public class VideoCard
     public void setMemorySum(int memorySum) {
         this.memorySum = memorySum;
     }
+
+    @Override
+    public String toString() {
+        return "VideoCard{" +
+                "name='" + name + '\'' +
+                ", formFactor='" + formFactor + '\'' +
+                ", memorySum=" + memorySum +
+                '}';
+    }
 }

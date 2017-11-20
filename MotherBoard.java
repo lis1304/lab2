@@ -44,4 +44,13 @@ public class MotherBoard
     public void setVga(boolean vga) {
         this.vga = vga;
     }
+
+    @Override
+    public String toString() {
+        return "MotherBoard{" +
+                "nameBoard='" + nameBoard + '\'' +
+                ", socket='" + socket + '\'' +
+                ", vga=" + vga +
+                '}';
+    }
 }

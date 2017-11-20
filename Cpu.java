@@ -53,4 +53,14 @@ public class Cpu
     public void setNameCpu(String nameCpu) {
         this.nameCpu = nameCpu;
     }
+
+    @Override
+    public String toString() {
+        return "Cpu{" +
+                "cashl1=" + cashl1 +
+                ", cashl2=" + cashl2 +
+                ", mhz=" + mhz +
+                ", nameCpu='" + nameCpu + '\'' +
+                '}';
+    }
 }

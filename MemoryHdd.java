@@ -42,4 +42,13 @@ public class MemoryHdd
     public void setHddSum(int hddSum) {
         this.hddSum = hddSum;
     }
+
+    @Override
+    public String toString() {
+        return "MemoryHdd{" +
+                "tipe='" + tipe + '\'' +
+                ", name='" + name + '\'' +
+                ", hddSum=" + hddSum +
+                '}';
+    }
 }

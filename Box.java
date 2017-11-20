@@ -31,4 +31,12 @@ public class Box
     public void setFormFactor(String formFactor) {
         this.formFactor = formFactor;
     }
+
+    @Override
+    public String toString() {
+        return "Box{" +
+                "name='" + name + '\'' +
+                ", formFactor='" + formFactor + '\'' +
+                '}';
+    }
 }

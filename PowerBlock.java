@@ -44,4 +44,13 @@ public class PowerBlock
     public void setPower(int power) {
         this.power = power;
     }
+
+    @Override
+    public String toString() {
+        return "PowerBlock{" +
+                "name='" + name + '\'' +
+                ", formFactor='" + formFactor + '\'' +
+                ", power=" + power +
+                '}';
+    }
 }

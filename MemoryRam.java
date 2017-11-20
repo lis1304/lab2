@@ -7,8 +7,21 @@ public class MemoryRam
     private String formFactor;
     private String name;
     private int memorySum;
-    public static int itogMemorySum=0;
+    public static int itogMemorySum;
 
+    @Override
+    public String toString() {
+        return "MemoryRam{" +
+                "tip='" + tip + '\'' +
+                ", formFactor='" + formFactor + '\'' +
+                ", name='" + name + '\'' +
+                ", memorySum=" + memorySum +
+                '}';
+    }
+
+    static {
+        itogMemorySum = 0;
+    }
     public MemoryRam(String tip, String formFactor, String name, int memorySum) {
         this.tip = tip;
         this.formFactor = formFactor;
